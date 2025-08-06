@@ -3,7 +3,9 @@ package OOPSDay2.InventoryManagementSystem;
 import java.util.Scanner;
 
 public class Main {
+         static WereHouse w = new WereHouse();
     public static void main(String[] args) {
+
         do {
             Scanner sc = new Scanner(System.in);
             System.out.println("Choose num :");
@@ -15,7 +17,6 @@ public class Main {
                     Order.orders();
                     break;
                 case 2: {
-                    WereHouse w = new WereHouse();
                     w.addProduct();
                     break;
                 }

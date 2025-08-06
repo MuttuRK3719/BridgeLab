@@ -3,7 +3,7 @@ package OOPSDay2.InventoryManagementSystem;
 import java.util.Scanner;
 
 public class WereHouse {
-    private Product []products=new Product[25];
+    private final Product []products=new Product[25];
     int index=0;
 
     public void addProduct() {
@@ -18,9 +18,11 @@ public class WereHouse {
         System.out.println("Enter product quantity: ");
         p.setQuantity(sc.nextInt());
         products[index++] = p;
+        System.out.println(p);
     }
      void toDisplayProducts(){
          System.out.println("Hii");
+         System.out.println(index);
         for (int i = 0; i < index; i++) {
             System.out.println(products[i]);
         }

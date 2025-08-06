@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Order {
 
     public static void orders() {
-        WereHouse w = new WereHouse();
+        WereHouse w = Main.w;
         do {
             Scanner sc = new Scanner(System.in);
             System.out.println("Choose num :");
