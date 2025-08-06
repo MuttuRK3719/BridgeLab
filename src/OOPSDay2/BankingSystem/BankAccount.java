@@ -1,12 +1,12 @@
 package OOPSDay2.BankingSystem;
 
-abstract class BankAccount  {
-     final String name;
-     final String accountNumber;
-     double balance;
+abstract class BankAccount {
+    final String name;
+    final String accountNumber;
+    double balance;
 
 
-    public  BankAccount(String name, String accountNumber, double initialDeposit) {
+    public BankAccount(String name, String accountNumber, double initialDeposit) {
         this.name = name;
         this.accountNumber = accountNumber;
         this.balance = initialDeposit;
