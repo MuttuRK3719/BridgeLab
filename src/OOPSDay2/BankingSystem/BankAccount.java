@@ -1,4 +1,4 @@
-package OOPSDay2.BankingSystem;
+package OOPsProblemsDay4.TollManagement.BankingSystem;
 
 abstract class BankAccount {
     final String name;

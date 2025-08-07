@@ -1,4 +1,4 @@
-package OOPSDay2.BankingSystem;
+package OOPsProblemsDay4.TollManagement.BankingSystem;
 
 public interface BankingSystem {
     void createAccount(String accountType,String name, String accountNumber, double initialDeposit);

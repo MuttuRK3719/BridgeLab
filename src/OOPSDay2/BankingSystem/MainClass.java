@@ -1,4 +1,4 @@
-package OOPSDay2.BankingSystem;
+package OOPsProblemsDay4.TollManagement.BankingSystem;
 
 public class MainClass {
     public static void main(String[] args) {
