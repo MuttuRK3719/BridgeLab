@@ -1,4 +1,4 @@
-package OOPsProblemsDay4.TollManagement.BankingSystem;
+package OOPSDay2.BankingSystem;
 
 import java.util.HashMap;
 import java.util.Map;

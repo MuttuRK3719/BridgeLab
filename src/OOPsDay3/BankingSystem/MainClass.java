@@ -1,7 +1,5 @@
 package OOPsDay3.BankingSystem;
 
-import OOPSDay2.BankingSystem.BankingSystem;
-
 import java.util.Scanner;
 
 public class MainClass {

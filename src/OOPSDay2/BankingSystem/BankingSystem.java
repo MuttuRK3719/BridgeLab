@@ -1,7 +1,7 @@
-package OOPsProblemsDay4.TollManagement.BankingSystem;
+package OOPSDay2.BankingSystem;
 
 public interface BankingSystem {
-    void createAccount(String accountType,String name, String accountNumber, double initialDeposit);
+    void createAccount(String accountType, String name, String accountNumber, double initialDeposit);
 
     double checkBalance(String accountNumber);
 

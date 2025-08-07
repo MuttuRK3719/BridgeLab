@@ -1,5 +1,8 @@
 package OOPsDay3.ParkingSlotSystem;
 
 public abstract class Vehicle {
-    abstract void Hii();
+//    private String vehicleNum;
+//    private double parkingFees;
+//    abstract double getParkingFees();
+     void Hii(){}
 }

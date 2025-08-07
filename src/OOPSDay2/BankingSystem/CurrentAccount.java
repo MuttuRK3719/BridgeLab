@@ -1,4 +1,4 @@
-package OOPsProblemsDay4.TollManagement.BankingSystem;
+package OOPSDay2.BankingSystem;
 
 public class CurrentAccount extends BankAccount {
     public CurrentAccount(String name, String accountNumber, double balance) {

@@ -1,4 +1,4 @@
-package OOPsProblemsDay4.TollManagement.BankingSystem;
+package OOPSDay2.BankingSystem;
 
 public class SavingAccount extends BankAccount {
     private static final double minBalance = 1000;
