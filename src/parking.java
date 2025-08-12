@@ -1,5 +1,16 @@
 // ==================== Interfaces ====================
 
+This is violation of ISP
+interface ParkingLot {
+    void parkCar() {}
+    void unparkCar() {}
+    int getCapacity() { return 0; }
+
+    double calculateFee(Car car) { return 0; }
+    void doPayment(Car car) {}
+}
+
+
 interface ParkingLot {
     void parkCar();
     void unparkCar();
