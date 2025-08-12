@@ -1,21 +1,16 @@
 // ==================== Interfaces ====================
 
-// Parking-related responsibilities only
 interface ParkingLot {
     void parkCar();
     void unparkCar();
     int getCapacity();
 }
 
-// Payment-related responsibilities only
 interface PaymentService {
     double calculateFee(Car car);
     void doPayment(Car car);
 }
 
-// ==================== Implementations ====================
-
-// Free parking: no payment logic needed
 class FreeParking implements ParkingLot {
 
     private int capacity = 50;
@@ -38,7 +33,6 @@ class FreeParking implements ParkingLot {
     }
 }
 
-// Paid parking: has both parking and payment
 class PaidParking implements ParkingLot, PaymentService {
 
     private int capacity = 30;
@@ -77,7 +71,6 @@ class PaidParking implements ParkingLot, PaymentService {
     }
 }
 
-// ==================== Car Class ====================
 class Car {
     private String plateNumber;
 
@@ -91,17 +84,14 @@ class Car {
     }
 }
 
-// ==================== Test Class ====================
 public class Main {
     public static void main(String[] args) {
         Car myCar = new Car("KA-01-AB-1234");
 
-        // Free parking usage
         ParkingLot freeLot = new FreeParking();
         freeLot.parkCar();
         freeLot.unparkCar();
 
-        // Paid parking usage
         PaidParking paidLot = new PaidParking();
         paidLot.parkCar();
         paidLot.doPayment(myCar);
