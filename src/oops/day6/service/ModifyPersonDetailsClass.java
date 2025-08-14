@@ -43,4 +43,15 @@ public class ModifyPersonDetailsClass implements ModifyPersonDetails {
         }
         return false;
     }
+    @Override
+    public boolean deletePerson(String firstName) {
+        for (Contact contact : contactList) {
+            if (contact.getFirstName().equals(firstName)) {
+                contactList.remove(contact);
+                return true;
+            }
+        }
+        System.out.println("No such person not available with name of : " + firstName);
+        return false;
+    }
 }
